@@ -1,6 +1,7 @@
 # path-to-ignore
 .idea/
 data/
+data-bin/
 result/
 
 # Python.gitignore
