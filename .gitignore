@@ -1,8 +1,8 @@
 # path-to-ignore
 .idea/
-data/
+corpus/
 data-bin/
-result/
+checkpoints/
 
 # Python.gitignore
 
