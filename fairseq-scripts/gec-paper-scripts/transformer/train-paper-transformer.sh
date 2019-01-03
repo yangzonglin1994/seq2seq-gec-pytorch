@@ -1,4 +1,4 @@
-PROJECT_ROOT='../..'
+PROJECT_ROOT='../../..'
 
 CUDA_VISIBLE_DEVICES=0 python $PROJECT_ROOT/fairseq/train.py \
   $PROJECT_ROOT/data-bin/gec-paper/ \

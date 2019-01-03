@@ -1,5 +1,5 @@
-PROJECT_ROOT='../..'
-MODEL_DIR=$PROJECT_ROOT/checkpoints/gec-paper/transformer
+PROJECT_ROOT='../../..'
+MODEL_DIR=$PROJECT_ROOT/checkpoints/gec-paper/lstm
 
 python $PROJECT_ROOT/fairseq/generate.py \
     $PROJECT_ROOT/data-bin/gec-paper/ \

@@ -1,4 +1,4 @@
-PROJECT_ROOT='../..'
+PROJECT_ROOT='../../..'
 
 python $PROJECT_ROOT/fairseq/train.py \
     $PROJECT_ROOT/data-bin/gec-paper/ \
@@ -6,6 +6,5 @@ python $PROJECT_ROOT/fairseq/train.py \
     --lr 0.25 \
     --clip-norm 0.1 \
     --dropout 0.2 \
-    --max-tokens 2000 \
-    --max-sentences 32 \
+    --max-tokens 1500 \
     --arch lstm \
