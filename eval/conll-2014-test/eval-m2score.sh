@@ -12,4 +12,4 @@ CORPUS=$PROJECT_ROOT/corpus
 SYSTEM=./$MODEL/conll-2014-test.out
 GOLD=$CORPUS/conll14st-test-data/noalt/official-2014.combined.m2
 
-./m2scorer -v $SYSTEM $GOLD
+./m2scorer/m2scorer -v $SYSTEM $GOLD
